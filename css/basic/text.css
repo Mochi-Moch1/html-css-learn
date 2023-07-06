@@ -1,0 +1,39 @@
+.size-px {
+    font-size: 18px;
+}
+
+.size-percent {
+    font-size: 150%; 
+}
+
+.size-rem {
+    font-size: 1.8rem; 
+}
+
+.size-xxs {
+    font-size: xx-small;
+}
+
+.size-xs {
+    font-size: x-small;
+}
+
+.size-s {
+    font-size: small;
+}
+
+.size-m {
+    font-size: medium;
+}
+
+.size-l {
+    font-size: large;
+}
+
+.size-xl {
+    font-size: x-large;
+}
+
+.size-xxl {
+    font-size: xx-large;
+}
