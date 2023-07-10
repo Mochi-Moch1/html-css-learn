@@ -1,39 +1,149 @@
+/* font-size */
 .size-px {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .size-percent {
-    font-size: 150%; 
+  font-size: 150%;
 }
 
 .size-rem {
-    font-size: 1.8rem; 
+  font-size: 1.8rem;
 }
 
 .size-xxs {
-    font-size: xx-small;
+  font-size: xx-small;
 }
 
 .size-xs {
-    font-size: x-small;
+  font-size: x-small;
 }
 
 .size-s {
-    font-size: small;
+  font-size: small;
 }
 
 .size-m {
-    font-size: medium;
+  font-size: medium;
 }
 
 .size-l {
-    font-size: large;
+  font-size: large;
 }
 
 .size-xl {
-    font-size: x-large;
+  font-size: x-large;
 }
 
 .size-xxl {
-    font-size: xx-large;
+  font-size: xx-large;
+}
+
+/* font-family */
+.lucida {
+  font-family: "Lucida Grande";
+}
+
+.sans-serif {
+  font-family: sans-serif;
+}
+
+.serif {
+  font-family: serif, sans-serif;
+}
+
+.monospace {
+  font-family: monospace;
+}
+
+.fantasy {
+  font-family: fantasy;
+}
+
+/* font-weight */
+.weight-normal {
+  font-weight: normal;
+}
+
+.weight-num {
+  font-weight: 1000;
+}
+
+.weight-bold {
+  font-weight: bold;
+}
+
+.weight-lighter {
+  font-weight: lighter;
+}
+
+.weight-bolder {
+  font-weight: bolder;
+}
+/* font-style */
+.normal {
+  font-style: normal;
+}
+
+.itaric {
+  font-style: italic;
+}
+
+.oblique {
+  font-style: oblique;
+}
+
+/* font-style */
+.none {
+  text-transform: none;
+}
+
+.upper {
+  text-transform: uppercase;
+}
+
+.lower {
+  text-transform: lowercase;
+}
+
+.capital {
+  text-transform: capitalize;
+}
+
+/* line-height */
+.line-normal {
+  line-height: normal;
+}
+
+.line-rate {
+  line-height: 2.5;
+}
+
+.line-px {
+  line-height: 10px;
+}
+
+.line-percent {
+  line-height: 100%;
+}
+
+.line-rem {
+  line-height: 1.2rem;
+}
+
+/* text-align */
+.align-center {
+  text-align: center;
+}
+
+.align-left {
+  text-align: left;
+}
+
+.align-right {
+  text-align: right;
+}
+
+.align-justify {
+  text-align: justify;
 }
