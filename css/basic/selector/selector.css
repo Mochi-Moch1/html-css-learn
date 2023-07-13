@@ -1,0 +1,30 @@
+/* 要素型セレクター */
+p {
+  font-size: large;
+}
+
+/* セレクターリスト */
+h1,
+h2 {
+  font-family: sans-serif;
+}
+
+/* 子孫セレクター */
+body ul li {
+  font-weight: bold;
+}
+
+/* idセレクター */
+#top {
+  text-align: center;
+}
+
+/* クラスセレクター */
+.around {
+  font-weight: bolder;
+}
+
+/* 擬似クラス */
+li:first-child {
+  font-size: 150%;
+}
