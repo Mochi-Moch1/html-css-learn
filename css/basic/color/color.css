@@ -1,0 +1,42 @@
+.color h1 {
+  color: blueviolet;
+}
+
+.color h2 {
+  color: rgba(138, 43, 226, 0.75);
+}
+
+.color p {
+  color: #222;
+}
+
+.background-color {
+  background-color: #ddd;
+}
+
+.background-color h1 {
+  background-color: blueviolet;
+}
+
+.background-color h2 {
+  background-color: rgba(138, 43, 226, 0.25);
+}
+
+.border {
+  border: 3px solid #ddd;
+}
+
+.border h1 {
+  border: 0.2em dashed blueviolet;
+}
+
+.border h2 {
+  border: 0.4rem dotted rgba(138, 43, 226, 0.25);
+}
+
+.border-direction p {
+  border-top: 3px solid #ddd;
+  border-right: 5px dashed blueviolet;
+  border-bottom: 7px dotted #999;
+  border-left: 9px double rgba(138, 43, 226, 0.45);
+}
