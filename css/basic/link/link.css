@@ -1,0 +1,43 @@
+a:link {
+  font-size: 30px;
+  color: gray;
+}
+
+a:visited {
+  font-size: 30px;
+  color: gray;
+}
+
+a:hover {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+a:active {
+  font-size: 30px;
+  color: gray;
+}
+/* text-decoration property */
+
+.text-decoration-under a:link,
+.text-decoration-over a:link {
+  text-decoration: none;
+  color: blue;
+  font-size: medium;
+}
+
+.text-decoration-under .normal a:link {
+  text-decoration: underline;
+}
+
+.text-decoration-under .custom a:link {
+  text-decoration: underline dashed blueviolet 2px;
+}
+
+.text-decoration-over .normal a:link {
+  text-decoration: overline;
+}
+
+.text-decoration-over .custom a:link {
+  text-decoration: overline underline wavy blueviolet 2px;
+}
