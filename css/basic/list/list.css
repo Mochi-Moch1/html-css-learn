@@ -1,3 +1,97 @@
-ul {
+.example {
   list-style: square;
+}
+
+.none {
+  list-style: none;
+}
+
+.disc {
+  list-style: disc;
+}
+
+.circle {
+  list-style: circle;
+}
+
+.square {
+  list-style: square;
+}
+
+.decimal {
+  list-style: decimal;
+}
+
+.decimal-leading {
+  list-style: decimal-leading-zero;
+}
+
+.lower-alpha {
+  list-style: lower-alpha;
+}
+
+.upper-alpha {
+  list-style: upper-alpha;
+}
+
+.lower-roman {
+  list-style: lower-roman;
+}
+
+.upper-roman {
+  list-style: upper-roman;
+}
+
+.hiragana {
+  list-style: hiragana;
+}
+
+.katakana {
+  list-style: katakana;
+}
+
+.hiragana-iroha {
+  list-style: hiragana-iroha;
+}
+
+.katakana-iroha {
+  list-style: katakana-iroha;
+}
+
+.cjk {
+  list-style: cjk-ideographic;
+}
+
+.lower-greek {
+  list-style: lower-greek;
+}
+
+.hebrew {
+  list-style: hebrew;
+}
+
+.armenian {
+  list-style: armenian;
+}
+
+.georgian {
+  list-style: georgian;
+}
+
+.outside li {
+  list-style: outside;
+  background-color: #e8cbfb;
+}
+
+.inside li {
+  list-style: inside;
+  background-color: #e8cbfb;
+}
+
+.type-position {
+  list-style: hiragana inside;
+}
+
+.type-position li {
+  background-color: #e8cbfb;
 }
