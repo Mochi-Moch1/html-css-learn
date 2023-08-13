@@ -1,0 +1,19 @@
+/* h1 {
+  color: blue !important;
+} */
+
+#sample {
+  color: blue;
+}
+
+.sample {
+  color: red;
+}
+
+h1 {
+  color: blue;
+}
+
+* {
+  color: gray;
+}
