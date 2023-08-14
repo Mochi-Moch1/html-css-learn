@@ -1,3 +1,4 @@
+/* Overview */
 /* h1 {
   color: blue !important;
 } */
@@ -10,10 +11,51 @@
   color: red;
 }
 
+a:link {
+  color: green;
+}
+
 h1 {
   color: blue;
 }
 
 * {
   color: gray;
+}
+
+/* Priority example 1 */
+h1 {
+  color: red;
+}
+
+#id-example1 {
+  color: green;
+}
+
+.class-example1 {
+  color: blue;
+}
+
+/* Priority example 2 */
+h2 {
+  color: red !important;
+}
+
+* {
+  color: green;
+}
+
+.class-example2 {
+  color: blue;
+}
+
+/* Priority when the same selector is specified many times */
+.class-selector {
+  color: red;
+}
+.class-selector {
+  color: green;
+}
+.class-selector {
+  color: blue;
 }
