@@ -1,0 +1,45 @@
+h1,
+p {
+  color: white;
+  background-color: blueviolet;
+}
+
+.box-model h1 {
+  width: 584px;
+  height: 136px;
+  padding: 34px;
+  border: solid black 10px;
+  margin: 30px;
+}
+
+.width h1 {
+  width: 200px;
+}
+
+.width p {
+  width: auto;
+}
+
+.width div {
+  width: 400px;
+  border: 3px solid black;
+}
+.width div p {
+  width: 50%;
+}
+
+.height h1 {
+  height: 100px;
+}
+.height p {
+  height: auto;
+}
+
+.height div {
+  height: 200px;
+  border: 3px solid black;
+}
+.height div p {
+  height: 50%;
+  margin: 0;
+}
