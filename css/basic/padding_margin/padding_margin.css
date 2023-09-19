@@ -6,19 +6,19 @@
 
 /* Setup */
 h1 {
-  font-size: 70px;
+  font-size: 30px;
   background-color: blueviolet;
   color: white;
 }
 
 h2 {
-  font-size: 50px;
+  font-size: 25px;
   background-color: blueviolet;
   color: white;
 }
 
 h3 {
-  font-size: 40px;
+  font-size: 20px;
   background-color: blueviolet;
   color: white;
 }
@@ -65,4 +65,53 @@ h4 {
   margin: 10px 20px;
   margin: 10px 20px 30px;
   margin: 10px 20px 30px 40px;
+}
+
+/* Margin problem */
+
+.margin-coll h1 {
+  font-size: 50px;
+}
+
+.margin-coll .first {
+  margin-bottom: 30px;
+}
+
+.margin-coll .second {
+  margin-top: 70px;
+}
+
+/* Which is better top or bottom ? */
+
+.top-or-bottom p {
+  background-color: #e5e5ea;
+}
+
+/* Reset */
+.reset h1,
+h2 {
+  background-color: white;
+  color: black;
+  font-size: 30px;
+}
+
+/* Centering */
+.centering {
+  border: 2px black solid;
+  margin-bottom: 50px;
+}
+
+.centering h1 {
+  width: 200px;
+  margin: 0 auto;
+}
+
+/* Right */
+.right {
+  border: 2px black solid;
+}
+
+.right h1 {
+  width: 200px;
+  margin-left: auto;
 }
