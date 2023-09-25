@@ -1,0 +1,48 @@
+.how-to h1::first-letter {
+  font-size: 150%;
+  color: #a357d7;
+}
+
+.how-to h2::before {
+  content: "Before";
+  color: #a357d7;
+  font-size: 50%;
+}
+
+.first-letter p::first-letter {
+  color: #a357d7;
+  font-size: 200%;
+  font-weight: bold;
+}
+
+.first-line p::first-line {
+  color: #a357d7;
+}
+
+.before h1::before {
+  content: "😇🙂🙃";
+  font-size: 50%;
+}
+
+.before h2::before {
+  content: "";
+}
+
+.after h1::after {
+  content: "←ポイント";
+  font-size: 50%;
+  color: #a357d7;
+}
+
+.marker li::marker {
+  content: "👉";
+}
+
+.placeholder input::placeholder {
+  color: #a357d7;
+}
+
+.selection p::selection {
+  color: white;
+  background-color: #a357d7;
+}
