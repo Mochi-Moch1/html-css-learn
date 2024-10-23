@@ -1,0 +1,27 @@
+@media (max-width: 37.5em) {
+  .header {
+    padding: 0 1.6rem;
+  }
+
+  .about-section {
+    padding: 0 1.6rem;
+  }
+
+  .profile-container {
+    display: block;
+    width: 100%;
+  }
+
+  .bicycle-section {
+    padding: 0 1.6rem;
+  }
+
+  .bicycle-container {
+    display: block;
+    width: 100%;
+  }
+
+  .bicycle-content {
+    margin-bottom: 3.2rem;
+  }
+}
