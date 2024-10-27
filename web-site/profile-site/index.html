@@ -25,12 +25,19 @@
 
   <body>
     <header class="header">
-      <img src="img/logo.svg" alt="Logo" class="logo" />
+      <!-- Add -->
+      <h1>
+        <a href="index.html">
+          <img src="img/logo.svg" alt="Profile logo" class="logo" />
+        </a>
+      </h1>
+
       <!-- Add -->
       <nav>
         <ul class="menu">
-          <li>About</li>
-          <li>Bicycle</li>
+          <!-- Add -->
+          <li><a href="#about" class="menu-item">About</a></li>
+          <li><a href="#bycicle" class="menu-item">Bicycle</a></li>
         </ul>
       </nav>
     </header>
@@ -41,7 +48,7 @@
       </div>
 
       <section class="about-section">
-        <h2><span class="h2-deco">About</span></h2>
+        <h2>About</h2>
         <div class="profile-container">
           <img class="profile-img" src="img/about.jpg" alt="Profile" />
           <div class="profile-text">
@@ -59,29 +66,29 @@
       <section class="bicycle-section">
         <div>
           <h2><span class="h2-deco">Bicycle</span></h2>
-          <div class="bicycle-container">
-            <div class="bicycle-content">
+          <ul class="bicycle-container">
+            <li class="bicycle-content">
               <img class="bicycle-img" src="img/bicycle1.jpg" alt="Bicycle" />
               <p class="title">タイトルタイトル</p>
               <p class="bicycle-disc">
                 Lorem ipsum dolor sit amet consectetur.
               </p>
-            </div>
-            <div class="bicycle-content">
+            </li>
+            <li class="bicycle-content">
               <img class="bicycle-img" src="img/bicycle2.jpg" alt="Bicycle" />
               <p class="title">タイトルタイトル</p>
               <p class="bicycle-disc">
                 Lorem ipsum dolor sit amet consectetur.
               </p>
-            </div>
-            <div class="bicycle-content">
+            </li>
+            <li class="bicycle-content">
               <img class="bicycle-img" src="img/bicycle3.jpg" alt="Bicycle" />
               <p class="title">タイトルタイトル</p>
               <p class="bicycle-disc">
                 Lorem ipsum dolor sit amet consectetur.
               </p>
-            </div>
-          </div>
+            </li>
+          </ul>
         </div>
       </section>
     </main>

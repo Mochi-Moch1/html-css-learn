@@ -5,16 +5,10 @@ html {
 body {
   font-family: "Noto Sans Jp", Sans-serif;
   width: 100vw;
-  color: #383e45; /* add */
 }
 
 li {
   list-style: none;
-}
-
-/* add */
-a {
-  text-decoration: none;
 }
 
 /* Header */
@@ -22,6 +16,7 @@ a {
   max-width: 64rem;
   display: flex;
   justify-content: space-between;
+  flex-direction: row;
   margin: 0.8rem auto;
   padding: 0 1rem;
 }
@@ -38,19 +33,11 @@ a {
   font-size: 1.44rem;
   font-weight: 300;
   color: #24292e;
-  height: 100%; /* Add */
-}
-
-.menu-item {
-  display: block;
-  color: #24292e;
 }
 
 /* Main */
 .hero {
   width: 100%;
-  height: 60rem;
-  object-fit: cover;
 }
 
 /* About */
@@ -62,11 +49,13 @@ a {
 }
 
 h2 {
-  display: inline-block; /* Add */
   font-weight: 600;
   font-size: xx-large;
   color: #383e45;
   margin-bottom: 3.2rem;
+}
+
+.h2-deco {
   border-bottom: #383e45 0.1rem solid;
 }
 
@@ -108,8 +97,9 @@ h2 {
 
 .bicycle-container {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   gap: 1rem;
+  width: 100%;
 }
 
 .bicycle-img {
