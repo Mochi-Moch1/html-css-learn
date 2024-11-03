@@ -5,10 +5,83 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
     <!-- CSS -->
-    <link rel="stylesheet" />
+    <link rel="stylesheet" href="https://unpkg.com/ress/dist/ress.min.css" />
     <link rel="stylesheet" href="css/style.css" />
 
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&display=swap"
+      rel="stylesheet"
+    />
+
     <title>Wooden Jewelry</title>
+    <meta name="description" content="Wooden Jewelryのサイト" />
+    <link rel="icon" href="img/favicon.ico" />
   </head>
-  <body></body>
+
+  <body>
+    <header class="container-wide">
+      <img class="header-img" src="img/mainvisual.jpg" alt="clothe" />
+      <nav class="header-flex menu">
+        <a href="index.html"
+          ><img src="img/logo.svg" alt="Wooden Jewelry" class="logo"
+        /></a>
+        <ul class="header-flex">
+          <li><a href="#Concept" class="text-s">Concept</a></li>
+          <li><a href="#Work" class="text-s">Work</a></li>
+          <li>
+            <a href="mailto:xxxx@xxx.xx?subject=お問い合わせ" class="text-s"
+              >Contact</a
+            >
+          </li>
+        </ul>
+      </nav>
+    </header>
+
+    <main class="container">
+      <section class="container-section">
+        <img
+          src="img/concept.jpg"
+          alt="指輪の画像"
+          class="img-tile margin-b-ss"
+        />
+        <div class="text-section">
+          <h2>私たちの考えるジュエリーとは</h2>
+          <div class="text-s margin-b-s">Concept</div>
+          <p class="text-m">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
+            quod eum atque sint nobis culpa impedit modi pariatur enim,
+            similique, architecto distinctio quisquam amet repudiandae, natus
+            quos illo explicabo provident!
+          </p>
+        </div>
+      </section>
+      <section class="container-section">
+        <div>
+          <h2>ハンドメイドにこだわる理由</h2>
+          <div class="text-s margin-b-s">Work</div>
+          <p class="text-m">
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Itaque
+            quod eum atque sint nobis culpa impedit modi pariatur enim,
+            similique, architecto distinctio quisquam amet repudiandae, natus
+            quos illo explicabo provident!
+          </p>
+        </div>
+        <img
+          src="img/work.jpg"
+          alt="指輪の画像"
+          class="img-tile img-reverse margin-b-ss"
+        />
+      </section>
+    </main>
+
+    <footer class="container flex-row-between">
+      <a href="index.html"
+        ><img src="img/logo.svg" alt="Wooden Jewelry" class="logo"
+      /></a>
+      <div class="text-s">&copy; 2021 Wooden Jewelry</div>
+    </footer>
+  </body>
 </html>

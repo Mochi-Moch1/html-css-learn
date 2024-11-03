@@ -1,0 +1,138 @@
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #2d2d2d;
+  font-family: "Crimson Text", serif;
+}
+
+a {
+  text-decoration: none;
+  color: #2d2d2d;
+}
+
+li {
+  list-style: none;
+}
+
+/* Util */
+.logo {
+  width: 11rem;
+  margin-right: 2rem;
+}
+
+h2 {
+  font-size: 2.4rem;
+  margin-bottom: 0.4rem;
+}
+
+.text-s {
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.text-m {
+  font-size: 1.6rem;
+  font-weight: 400;
+}
+
+p {
+  width: 33.5rem;
+}
+
+.margin-b-ss {
+  margin-bottom: 2.5rem;
+}
+
+.margin-b-s {
+  margin-bottom: 2.5rem;
+}
+
+/* Header */
+.container-wide {
+  max-width: 126rem;
+  margin: 5.6rem auto 0 auto;
+}
+
+.header-img {
+  width: 100%;
+  margin-bottom: 3.2rem;
+  text-align: center;
+}
+
+.header-flex {
+  display: flex;
+  gap: 3rem;
+}
+
+.menu {
+  margin-bottom: 6.2rem;
+}
+
+/* Main */
+.container {
+  max-width: 96.5rem;
+  margin: 0 auto 5.6rem auto;
+}
+
+.container-section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr;
+  align-items: center;
+  justify-items: center;
+  margin-bottom: 4.8rem;
+}
+
+.img-tile {
+  width: 100%;
+}
+
+/* Footer */
+.flex-row-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+/* Mobile */
+@media (max-width: 37.5em) {
+  /* Header */
+  .container-wide {
+    margin: 0;
+  }
+
+  .header-img {
+    height: 50vh;
+    object-fit: cover;
+  }
+
+  .header-flex {
+    justify-content: center;
+  }
+
+  /* Main */
+  .container-section {
+    grid-template-columns: 1fr;
+  }
+
+  .container {
+    margin: 0 1.6rem 5.6rem 1.6rem;
+  }
+
+  .text-section {
+    justify-self: left;
+  }
+
+  p {
+    width: 100%;
+  }
+
+  .img-reverse {
+    grid-row: 1;
+  }
+
+  .margin-b-ss {
+    margin-bottom: 2.5rem;
+  }
+}
