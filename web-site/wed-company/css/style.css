@@ -1,0 +1,132 @@
+/* Setting */
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #000;
+  font-family: "Zen Kaku Gothic Antique", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
+}
+
+ul {
+  list-style: none;
+}
+
+/* Utility */
+.container {
+  max-width: 100rem;
+  margin: 0 auto;
+}
+
+.container-full {
+  width: 100vw;
+}
+
+.logo {
+  width: 10rem;
+}
+
+.text-s {
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+
+.text-xs {
+  font-size: 1.2rem;
+  font-weight: 300;
+}
+
+.margin-b-s {
+  margin-bottom: 1.6rem;
+}
+
+.margin-b-l {
+  margin-bottom: 12rem;
+}
+
+/* Header */
+
+.header-container {
+  display: flex;
+  justify-content: space-between;
+  height: 8rem;
+  align-items: center;
+}
+
+.logo-nav-container {
+  display: flex;
+  gap: 6rem;
+}
+
+.nav-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.contact {
+  background-color: #000;
+  font-size: 1.2rem;
+  font-weight: 300;
+  color: #fff;
+  height: 100%;
+  width: 20rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Main */
+.img-main {
+  height: calc(100vh - 8rem);
+  object-fit: cover;
+  margin-bottom: 12rem;
+}
+
+.title-container {
+  margin-bottom: 6rem;
+}
+
+.title-en {
+  font-size: 3.6rem;
+  font-weight: 300;
+  letter-spacing: 1.3rem;
+}
+
+.title-ja {
+  display: inline-block;
+  margin-bottom: 2.4rem;
+}
+
+.title-border {
+  border-bottom: 0.1rem #000 solid;
+  width: 4rem;
+  margin-bottom: 2.4rem;
+}
+
+/* News */
+.news-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  justify-content: space-between;
+}
+
+.news-border {
+  border-left: #000 0.1rem solid;
+  padding-left: 2rem;
+}
+
+.news-time {
+  margin-right: 0.8rem;
+}
+
+.news-cat {
+  display: inline-block;
+  background-color: #000;
+  color: #fff;
+  padding: 0 1rem;
+}
