@@ -54,6 +54,10 @@ ul {
   margin-bottom: 12rem;
 }
 
+.margin-r-m {
+  margin-right: 4.3rem;
+}
+
 /* Header */
 
 .header-container {
@@ -186,4 +190,36 @@ ul {
 .business-li4 {
   grid-row: 4 / 6;
   grid-column: 2;
+}
+
+/* Compnay */
+.company-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  align-items: center;
+}
+
+.company-text-container {
+  background-color: #fff;
+  padding: 6.4rem 4.8rem;
+  margin-right: -6.4rem;
+}
+
+.company-img {
+  width: 100%;
+  height: 40rem;
+  object-fit: cover;
+}
+
+.company-list-container {
+  display: flex;
+}
+
+.company-li li {
+  margin-bottom: 1rem;
+}
+
+/* Footer */
+.footer-container {
+  background-color: #fff;
 }
